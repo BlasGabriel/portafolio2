@@ -17,6 +17,7 @@ export default function Contact({ dataContact, cvUrl }) {
         <a
           href={cvUrl}
           download
+          target="_blank"
           className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transform transition-transform hover:scale-105"
         >
           Descargar CV
