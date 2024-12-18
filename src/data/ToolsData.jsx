@@ -10,11 +10,11 @@ const skylls = [
     title: "Notion",
     src: NotionSvg,
   },
-  {
-    id: 2,
-    title: "Github",
-    src: GithubSvg,
-  },
+  // {
+  //   id: 2,
+  //   title: "Github",
+  //   src: GithubSvg,
+  // },
   {
     id: 3,
     title: "Git",
@@ -26,11 +26,11 @@ const skylls = [
     title: "Scrum",
     src: ScrumSvg,
   },
-  {
-    id: 5,
-    title: "Xampp",
-    src: XamppSvg,
-  },
+  // {
+  //   id: 5,
+  //   title: "Xampp",
+  //   src: XamppSvg,
+  // },
 
 ];
 export default skylls;
