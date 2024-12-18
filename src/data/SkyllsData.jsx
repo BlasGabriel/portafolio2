@@ -4,9 +4,12 @@ import MongoSvg from "../assets/mongo.svg";
 import MySqlSvg from "../assets/mysql.svg";
 import HtmlSvg from "../assets/html.svg";
 import CssSvg from "../assets/css.svg";
+import OracleSvg from "../assets/skylls/oracle.svg";
+import apex from "../assets/skylls/apex.png";
+import Jaspersoft from "../assets/skylls/Jaspersoft.png";
 import JavascriptSvg from "../assets/javascript.svg";
 import PhpSvg from "../assets/php.svg";
-
+  
 export const skylls = [
   {
     id: 1,
@@ -18,33 +21,43 @@ export const skylls = [
     title: "Node.js",
     src: NodeSvg,
   },
-  // {
-  //   id: 3,
-  //   title: "PHP",
-  //   src: PhpSvg,
-  // },
+  {
+    id: 3,
+    title: "Oracle",
+    src: OracleSvg,
+  },
   {
     id: 4,
+    title: "Apex Oracle",
+    src: apex,
+  },
+  {
+    id: 5,
+    title: "Jasper Report",
+    src: Jaspersoft,
+  },
+  {
+    id: 6,
     title: "HTML",
     src: HtmlSvg,
   },
   {
-    id: 5,
+    id: 7,
     title: "CSS",
     src: CssSvg,
   },
   {
-    id: 6,
+    id: 8,
     title: "Javascript",
     src: JavascriptSvg,
   },
   {
-    id: 7,
+    id: 9,
     title: "MySQL",
     src: MySqlSvg,
   },
   {
-    id: 8,
+    id: 10,
     title: "Mongo db",
     src: MongoSvg,
   },
