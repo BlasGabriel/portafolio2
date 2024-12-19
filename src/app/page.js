@@ -9,7 +9,6 @@ import tools from "../data/ToolsData.jsx";
 import dataContact from "../data/ContactData.jsx";
 
 export default function Home() {
-  const cvUrl =       "https://drive.google.com/file/d/1ZIrR5vM4ffQQVfEKQziSdd3ijWOOGc6L/view?usp=sharing";
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -17,7 +16,7 @@ export default function Home() {
       <Projects />
       <Skills skills={skylls} />
       <Tools tools={tools} />
-      <Contact dataContact={dataContact} cvUrl={cvUrl} />
+      <Contact dataContact={dataContact} />
     </div>
   );
 }
