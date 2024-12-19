@@ -6,7 +6,13 @@ export default function Welcome({ AboutData }) {
           Bienvenido a mi Portafolio
         </h1>
         <h2 className="text-3xl mb-2">{AboutData.name}</h2>
-        <p className="text-xl">{AboutData.role}</p>
+        <p className="text-xl mb-6">{AboutData.role}</p>
+        <a 
+          href="/portafolio2/detalles" 
+          className="inline-block bg-white text-blue-700 px-6 py-2 rounded-lg font-semibold hover:bg-blue-100 transition-colors"
+        >
+          Ver más detalles
+        </a>
       </div>
     </section>
   );
